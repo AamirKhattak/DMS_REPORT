@@ -1,0 +1,29 @@
+{
+  "name": "helpdesk",
+  "version": "0.0.1",
+  "description": "OGDCL helpdesk API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js",
+    "dev": "nodemon -r esm index.js"
+  },
+  "keywords": [
+    "helpdesk",
+    "ogdcl"
+  ],
+  "author": "Aamir Khattak",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "excel4node": "^1.7.2",
+    "express": "^4.17.1",
+    "ibm_db": "^2.8.1",
+    "pdfmake": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "nodemon": "^2.0.12"
+  }
+}
