@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "ca30d398-3f5c-4aa5-acb1-122768a5091e",
+		"name": "DMS_REPORT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test_app",
+			"item": [
+				{
+					"name": "diaries",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/api/diaries",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"api",
+								"diaries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "diagnoses",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/api/diagnoses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"api",
+								"diagnoses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "patients",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/api/patients",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"api",
+								"patients"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
