@@ -22,8 +22,8 @@
 // */
 // app.use(express.json())
 
-let startDate = '2022-02-20';
-let endDate = '2022-02-28';
+let startDate = '2022-06-01';
+let endDate = '2022-08-01';
 
 var ibmdb = require("ibm_db")
   , connStr = "DATABASE=TOS;HOSTNAME=172.16.0.35;PORT=50000;PROTOCOL=TCPIP;UID=db2admin;PWD=Oracle18c";
